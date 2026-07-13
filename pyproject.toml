@@ -4,25 +4,44 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "robot-recovery-bench"
-version = "0.1.0"
-description = "Review metrics and schema for robot intervention and recovery segments."
+version = "0.1.1"
+description = "Validate robot recovery segment JSONL and summarize intervention outcomes and timing."
 readme = "README.md"
 requires-python = ">=3.10"
 license = "MIT"
-authors = [{ name = "AuraOne" }]
+authors = [{ name = "AuraOne", email = "opensource@auraone.ai" }]
+keywords = [
+  "dataset-quality",
+  "human-in-the-loop",
+  "intervention",
+  "lerobot",
+  "recovery",
+  "rlds",
+  "robotics",
+]
 classifiers = [
   "Development Status :: 3 - Alpha",
+  "Environment :: Console",
+  "Intended Audience :: Science/Research",
+  "Operating System :: OS Independent",
   "Programming Language :: Python :: 3",
   "Programming Language :: Python :: 3.10",
   "Programming Language :: Python :: 3.11",
   "Programming Language :: Python :: 3.12",
   "Topic :: Scientific/Engineering :: Artificial Intelligence",
+  "Topic :: Scientific/Engineering :: Robotics",
+  "Topic :: Software Development :: Quality Assurance",
 ]
 dependencies = []
 
 [project.urls]
 Homepage = "https://auraone.ai/open"
 Source = "https://github.com/auraoneai/robot-recovery-bench"
+Issues = "https://github.com/auraoneai/robot-recovery-bench/issues"
+Documentation = "https://github.com/auraoneai/robot-recovery-bench#readme"
+Specification = "https://github.com/auraoneai/robot-recovery-bench/blob/main/spec/recovery-segment-schema-v1.json"
+Changelog = "https://github.com/auraoneai/robot-recovery-bench/blob/main/CHANGELOG.md"
+Security = "https://github.com/auraoneai/robot-recovery-bench/security/policy"
 
 [project.scripts]
 robot-recovery-bench = "robot_recovery_bench.cli:main"
