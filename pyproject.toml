@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "robot-recovery-bench"
-version = "0.1.1"
+version = "0.1.2"
 description = "Validate robot recovery segment JSONL and summarize intervention outcomes and timing."
 readme = "README.md"
 requires-python = ">=3.10"
@@ -29,7 +29,6 @@ classifiers = [
   "Programming Language :: Python :: 3.11",
   "Programming Language :: Python :: 3.12",
   "Topic :: Scientific/Engineering :: Artificial Intelligence",
-  "Topic :: Scientific/Engineering :: Robotics",
   "Topic :: Software Development :: Quality Assurance",
 ]
 dependencies = []

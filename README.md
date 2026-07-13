@@ -16,7 +16,7 @@ robot media.
 ## Install
 
 ```bash
-python -m pip install "robot-recovery-bench==0.1.1"
+python -m pip install "robot-recovery-bench==0.1.2"
 ```
 
 ## Verified Quickstart
@@ -81,8 +81,8 @@ imports this package when installed or available in the AuraOne monorepo.
 
 Verified on 2026-07-13:
 
-- PyPI: [`robot-recovery-bench==0.1.1`](https://pypi.org/project/robot-recovery-bench/0.1.1/)
-- GitHub release: [`v0.1.1`](https://github.com/auraoneai/robot-recovery-bench/releases/tag/v0.1.1)
+- PyPI: [`robot-recovery-bench==0.1.2`](https://pypi.org/project/robot-recovery-bench/0.1.2/)
+- GitHub release: [`v0.1.2`](https://github.com/auraoneai/robot-recovery-bench/releases/tag/v0.1.2)
 - Bundled segment records are synthetic tutorial data, not benchmark evidence.
 
 ## Next Action
