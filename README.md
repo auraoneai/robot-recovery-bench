@@ -1,5 +1,17 @@
 # robot-recovery-bench
 
+**Robot intervention and recovery segment metrics.** Part of [Robotics Studio](https://auraone.ai/open/robotics-studio).
+
+```bash
+python -m pip install "robot-recovery-bench==0.1.2"
+robot-recovery-bench report examples/mock_recovery_segments.jsonl \
+  --format json \
+  --out /tmp/robot-recovery-report.json
+```
+
+From a source checkout the bundled three-segment fixture reports
+`"recovery_success_rate": 0.6666666666666666`.
+
 `robot-recovery-bench` validates JSONL records for human intervention and robot
 recovery segments, then summarizes outcome and timing metrics without loading
 robot media.
@@ -90,3 +102,12 @@ Verified on 2026-07-13:
 Normalize one reviewed batch of intervention segments, validate it, and inspect
 the failure-reason clusters before deciding whether any records are
 training-ready.
+
+Part of the AuraOne robotics dataset QA workflow:
+[lerobot-quality-gates](https://auraone.ai/open/lerobot-quality-gates) →
+[Robotics Studio](https://auraone.ai/open/robotics-studio).
+
+---
+
+Need reviewed demonstration data or dataset quality operations at scale?
+[Talk to AuraOne](https://auraone.ai/contact?from=open:robot-recovery-bench)
